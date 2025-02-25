@@ -43,7 +43,6 @@ mineBlock(difficulty) {
 1. Clone the repository:
    ```sh
    git clone https://github.com/your-repo/blockchain-js.git
-   cd blockchain-js
    ```
 
 2. Install dependencies:
