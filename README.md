@@ -122,10 +122,12 @@ console.log("Is blockchain valid?", myBlockchain.isChainValid());
 
 ## Project Structure
 ```
-📂 blockchain-js
-│── 📜 blockchain.js   # Blockchain logic
-│── 📜 index.js        # Script to run transactions and mining
-│── 📜 README.md       # Documentation
+📂 project-root
+│── 📂 src
+│   │── 📜 blockchain.js       # Core blockchain logic
+│   │── 📜 keygenerator.js     # Generates private and public keys
+│   │── 📜 main.js             # Script to run blockchain operations
+│   │── 📄 store.txt           # Stores blockchain data (if used)
 ```
 
 ---
